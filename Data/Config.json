@@ -1,0 +1,17 @@
+{
+	"Settings":{
+	  "OrchestratorQueueName":"ProcessStateQueue",
+	  "logF_BusinessProcessName":"State_Process_RPA",
+	  "Assets":"ZipCodeApplication_URL",
+	  "ProcessToKill":"iexplore"
+	},
+	"Constants":{
+	  "MaxRetryNumber":0,
+	  "ExScreenshotsFolderPath":".screenshots",
+	  "LogMessage_GetTransactionData":"Processing Transaction Number: ",
+	  "LogMessage_GetTransactionDataError":"Error getting transaction data for Transaction Number: ",
+	  "LogMessage_Success":"Transaction Successful.",
+	  "LogMessage_BusinessRuleException":"Business rule exception.",
+	  "LogMessage_ApplicationException":"System exception."
+	}
+}
